@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import pickle
+from streamlit_option_menu import option_menu
 
 # === (Optional) Load Trained Model ===
 @st.cache_resource
@@ -11,6 +12,10 @@ def load_model():
 # model = load_model()  # Not used for rule-based classification
 
 st.title("🏏 All-Rounder Type Classifier In ODI Cricket")
+
+with st.sidebar:
+    selected = option_menu('Classification of All Rounders',
+                           ['ODI Classification', 'T20 Classification', 'Test Classification'],default_index=0)
 
 st.markdown("Enter player stats below:")
 
