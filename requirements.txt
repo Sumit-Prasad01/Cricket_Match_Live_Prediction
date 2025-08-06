@@ -6,4 +6,5 @@ scikit-learn
 xgboost
 streamlit
 sqlalchemy
+python-dotenv
 # -e .
