@@ -138,5 +138,7 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
-myenv
-PREV_DATA
+
+
+data/
+.cricket-env/

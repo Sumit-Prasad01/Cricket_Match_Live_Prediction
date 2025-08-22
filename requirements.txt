@@ -7,4 +7,7 @@ xgboost
 streamlit
 sqlalchemy
 python-dotenv
+psycopg2
+sqlalchemy
+ipykernel
 # -e .
